@@ -6,7 +6,7 @@ from utils import (
     is_valid_name, is_valid_date, is_valid_class
 )
 
-DATA_FILE = "studentа.txt"
+DATA_FILE = "students.txt"
 students = []
 
 def main():
@@ -274,3 +274,4 @@ def list_by_grade():
 
 if __name__ == "__main__":
     main()
+
