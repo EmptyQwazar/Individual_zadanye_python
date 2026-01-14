@@ -33,7 +33,7 @@ def is_valid_class(class_str):
 
 #работа с students.txt 
 
-def load_students(filename="studentsф.txt"):
+def load_students(filename="students.txt"):
 
     students = []
 
@@ -157,3 +157,4 @@ def print_students(lst, title="Список учеников"):
 
         print(f"{idx:<3} {str(surname):<12} {str(name):<12} {birth:<15} {str(class_name):<7}")
     print("-" * 100)
+
